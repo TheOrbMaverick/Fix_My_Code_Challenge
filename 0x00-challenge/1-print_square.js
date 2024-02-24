@@ -14,8 +14,7 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
-// Parse the size argument as a base 10 integer
-const size = parseInt(process.argv[2]);
+let size = parseInt(process.argv[2]);
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
